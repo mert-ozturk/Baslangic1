@@ -35,4 +35,9 @@
   to {
     transform: rotate(360deg);
   }
+  
 }
+.boyutlandirma-img {
+  max-width: 150px;
+  height: auto;
+  }
