@@ -12,6 +12,8 @@ const App = () => {
       
       <h1>{isLoggedIn && `benim adım ${name},soyadım ${surname}`}</h1>
       {!isLoggedIn && 'Giriş yapılmadı'}
+
+      <h1>{isLoggedIn ? `benim adım ${name},soyadım ${surname}`:'Giriş Yapılmadı'}</h1>
     </>
   )
 }
