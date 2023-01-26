@@ -1,20 +1,14 @@
 import React from 'react'
+import User from './components/User';
 
-const name = "Mert";
-const surname = "Ozturk";
-const isLoggedIn = true;
 
 const App = () => {
   
 
   return (
     <>
-      
-      <h1>{isLoggedIn && `benim adım ${name},soyadım ${surname}`}</h1>
-      {!isLoggedIn && 'Giriş yapılmadı'}
-
-      <h1>{isLoggedIn ? `benim adım ${name},soyadım ${surname}`:'Giriş Yapılmadı'}</h1>
-    </>
+      <User name="Mert" isLoggedIn={true}/>
+     </>
   )
 }
 
